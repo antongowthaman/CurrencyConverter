@@ -185,6 +185,21 @@ ul.add-currency-list li span {
   background-color: #ddd;
 }
 
+.dashboardbtn {
+  background-color: #00b386;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-top: 3px solid #222;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  position: relative;
+}
+
 @media (max-width: 600px) {
   html { font-size: 14px; }
   .container { width: 100%; margin: 0 auto; }
